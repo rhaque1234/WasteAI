@@ -41,8 +41,7 @@ python app.py
 
 You can classify waste items by providing an image or text description. Example API call:
 
-curl -X POST "http://localhost:5000/classify" -H "Content-Type: application/json" -d '{"image_url": "https://example.com/waste.jpg"}'
-
+curl -X POST "http://localhost:5000/classify" 
 2. Retrieve Recycling Suggestions
 
 curl -X GET "http://localhost:5000/recommendations?item=plastic_bottle"
